@@ -13,11 +13,13 @@ class App extends React.Component {
             <div className="ui container">
                 <Router>
                     <Header />
-                    <Route path='/' exact component={StreamList} />
-                    <Route path='/streams/create' exact component={StreamCreate} />
-                    <Route path='/streams/delete' exact component={StreamDelete} />
-                    <Route path='/streams/edit' exact component={StreamEdit} />
-                    <Route path='/streams/show' exact component={StreamShow} />
+                    <div className="ui raised segment">
+                        <Route path='/' exact component={StreamList} />
+                        <Route path='/streams/create' exact component={StreamCreate} />
+                        <Route path='/streams/delete' exact component={StreamDelete} />
+                        <Route path='/streams/edit' exact component={StreamEdit} />
+                        <Route path='/streams/show' exact component={StreamShow} />
+                    </div>
                 </Router>
             </div>
         )
