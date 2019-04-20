@@ -1,7 +1,7 @@
 import React                 from 'react';
 import {  Field, reduxForm } from 'redux-form';
 import { connect }           from 'react-redux';
-import { createStream }       from '../../actions'
+import { createStream }      from '../../actions'
 
 const validate = formValues => {
     const errors = {};

@@ -25,6 +25,18 @@
       "description": "Stream with ID created",
       "userId": "108350073101582201781",
       "id": 5
+    },
+    {
+      "title": "Stream created from clicking the button",
+      "description": "another exciting description",
+      "userId": "108350073101582201781",
+      "id": 6
+    },
+    {
+      "title": "stream for the win",
+      "description": "newly created stream",
+      "userId": "108350073101582201781",
+      "id": 7
     }
   ]
 }
